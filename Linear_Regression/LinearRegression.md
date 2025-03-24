@@ -14,7 +14,7 @@ Where:
 
 To optimize **w** and **b**, we minimize the **Mean Squared Error (MSE)** cost function:
 
-\[ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2 \]
+\[ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2 ]\
 
 where \( \hat{y} \) is the predicted value. The optimization is performed using **Gradient Descent**, which updates weights and bias iteratively:
 
